@@ -15,11 +15,11 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 ## snaps 
-## Splash Screen
-![](images/0ne.png)
-## World state Screen
-![](images/two.jpeg)
-## Countries list
-![](images/three.jpeg)
-## Deatils Screen
-![](images/four.jpeg)
+<h2>Splash Screen</h2><br>
+<img src="images/0ne.png" width="300" height="500">
+<h2>World Stats</h2><br>
+<img src="images/two.jpeg" width="300" height="500">
+<h2>Countires list</h2><br>
+<img src="images/three.jpeg" width="300" height="500">
+<h2>Detils Screen</h2><br>
+<img src="images/four.jpeg" width="300" height="500">
