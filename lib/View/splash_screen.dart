@@ -13,7 +13,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen>
     with TickerProviderStateMixin {
-  late final AnimationController _controller =
+    late final AnimationController _controller =
       AnimationController(duration: const Duration(seconds: 3), vsync: this)
         ..repeat();
 
@@ -21,14 +21,16 @@ class _SplashScreenState extends State<SplashScreen>
   void dispose() {
     _controller.dispose();
     super.dispose();
-
   }
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-   Timer(const Duration(seconds: 5), () => Navigator.push(context, MaterialPageRoute(builder: (context) =>  const WorldStates())));
+    Timer(
+        const Duration(seconds: 5),
+        () => Navigator.push(context,
+            MaterialPageRoute(builder: (context) => const WorldStates())));
   }
 
   @override
@@ -64,7 +66,10 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Text(
                   'Covid-19\nTracker App',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25,color: Color.fromARGB(255, 4, 135, 152)),
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25,
+                      color: Color.fromARGB(255, 4, 135, 152)),
                 ))
           ],
         ),
