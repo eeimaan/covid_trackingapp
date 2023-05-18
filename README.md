@@ -16,8 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 ## snaps 
 ## Splash Screen
-
-<img height="650" src="images/0ne.png" width="550"/>
+![](images/0ne.png)
 ## World state Screen
 ![](images/two.jpeg)
 ## Countries list
